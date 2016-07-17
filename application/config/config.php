@@ -63,6 +63,8 @@ $config['uri_protocol']	= 'REQUEST_URI';
 | For more information please see the user guide:
 |
 | https://codeigniter.com/user_guide/general/urls.html
+|
+| Note: This option is ignored for CLI requests.
 */
 $config['url_suffix'] = '';
 
@@ -158,6 +160,8 @@ $config['composer_autoload'] = FALSE;
 | Set permitted_uri_chars_exclude_cli to TRUE to permit all CLI requests
 |
 | DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
+|
+| Note: This option is ignored for CLI requests.
 |
 */
 $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
